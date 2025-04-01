@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.3">
   <diagram name="Page-1" id="jb9GUouHQC99lIiLJs_5">
-    <mxGraphModel>
+    <mxGraphModel dx="786" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="A8iQdu8dWcUuYwmikw4z-1" value="Equipo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="160" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="A8iQdu8dWcUuYwmikw4z-2" value="- nombre: String&lt;div&gt;-jugadores: List&amp;lt;Jugador&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A8iQdu8dWcUuYwmikw4z-1">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="A8iQdu8dWcUuYwmikw4z-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="A8iQdu8dWcUuYwmikw4z-1">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="A8iQdu8dWcUuYwmikw4z-4" value="+agregarJugador(jugador)&lt;div&gt;+getNombre()&lt;/div&gt;&lt;div&gt;+getJugadores()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A8iQdu8dWcUuYwmikw4z-1">
+          <mxGeometry y="88" width="160" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="A8iQdu8dWcUuYwmikw4z-6" value="Jugador" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="160" width="160" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="A8iQdu8dWcUuYwmikw4z-7" value="&lt;div&gt;-id int&lt;/div&gt;- nombre: String&lt;div&gt;-apellidos String&lt;/div&gt;&lt;div&gt;-nickname String&lt;br&gt;&lt;div&gt;-Equipo Equipo&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A8iQdu8dWcUuYwmikw4z-6">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="A8iQdu8dWcUuYwmikw4z-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="A8iQdu8dWcUuYwmikw4z-6">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="A8iQdu8dWcUuYwmikw4z-9" value="+getNombreCompleto()&lt;div&gt;+setEquipo(equipo)&lt;/div&gt;&lt;div&gt;+getNickname()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A8iQdu8dWcUuYwmikw4z-6">
+          <mxGeometry y="118" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A8iQdu8dWcUuYwmikw4z-10" value="Torneo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="370" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="A8iQdu8dWcUuYwmikw4z-11" value="&lt;div&gt;-id int&lt;/div&gt;- nombre: String&lt;div&gt;-Equipos List&amp;lt;Equipo&amp;gt;&lt;/div&gt;&lt;div&gt;-Partidas List&amp;lt;Partida&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A8iQdu8dWcUuYwmikw4z-10">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="A8iQdu8dWcUuYwmikw4z-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="A8iQdu8dWcUuYwmikw4z-10">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="A8iQdu8dWcUuYwmikw4z-13" value="&lt;div&gt;+getEquipos()&lt;/div&gt;&lt;div&gt;+getPartidas()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A8iQdu8dWcUuYwmikw4z-10">
+          <mxGeometry y="98" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="A8iQdu8dWcUuYwmikw4z-14" value="Partida" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="160" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="A8iQdu8dWcUuYwmikw4z-15" value="&lt;div&gt;-i d int&lt;/div&gt;- resultado: String&lt;div&gt;- equipoLocal Equipo&lt;/div&gt;&lt;div&gt;- equipoVisitante Equipo&lt;br&gt;&lt;div&gt;- Equipo Equipo&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A8iQdu8dWcUuYwmikw4z-14">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="A8iQdu8dWcUuYwmikw4z-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="A8iQdu8dWcUuYwmikw4z-14">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="A8iQdu8dWcUuYwmikw4z-17" value="+getNombreCompleto()&lt;div&gt;+setEquipo(equipo)&lt;/div&gt;&lt;div&gt;+getNickname()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A8iQdu8dWcUuYwmikw4z-14">
+          <mxGeometry y="118" width="160" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
