@@ -2,11 +2,12 @@
  
 ## Autor 
 Guillermo Olivares Bernat
-[Tu perfil de GitHub ](https://github.com/llester000) 
+[Mi perfil de GitHub ](https://github.com/llester000) 
+
 ## Descripción del Proyecto 
  
-[Link al repositorio del proyecto 
-](https://github.com/llester000/torneo-esports-uml) 
+[Link al repositorio del proyecto ](https://github.com/llester000/torneo-esports-uml) 
+
 Este proyecto implementa un sistema de gestión de torneos de eSports utilizando UML para el modelado y Java para la implementación. 
  
 ## Diagramas UML 
