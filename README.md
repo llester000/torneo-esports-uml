@@ -2,8 +2,7 @@
  
 ## Autor 
 Guillermo Olivares Bernat
-[Tu perfil de GitHub 
-](https://github.com/llester000) 
+[Tu perfil de GitHub ](https://github.com/llester000) 
 ## Descripción del Proyecto 
  
 [Link al repositorio del proyecto 
