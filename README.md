@@ -30,3 +30,16 @@ torneo-esports-uml/ ├── src/
 │ ├── clases.png 
 ├── README.md 
 ├── .gitignore 
+├── LICENSE (opcional) 
+ 
+ 
+## Instalación y Ejecución 
+1.	Clonar el repositorio: 
+`git clone https://github.com/llester000/torneo-esports-uml.git`  
+2.	Compilar y ejecutar el proyecto: 
+`cd src javac es/empresa/torneo/Main.java java es.empresa.torneo.Main`  
+## Justificación del diseño 
+Por qué se eligió esa estructura y cómo se organizan las clases.  
+ 
+## Conclusiones  
+Sobre el aprendizaje obtenido
